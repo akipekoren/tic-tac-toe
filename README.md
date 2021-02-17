@@ -22,7 +22,7 @@ is max player.
 
 2) Calculate the evaluation function for every node
 
-3)Go back from leaves to root : 
+3) Go back from leaves to root : 
 
 for max player, choose the highest val
 for min player, choose the lowest val
