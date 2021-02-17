@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="minimax.js" charset="UTF-8"></script></script>
+<title>Title of the document</title>
+</head>
+
+<body>
+
+
+
+  <div class= "header">
+
+    <h1>Tic Tac Toe </h1>
+    <h3>Can you beat AI? </h3>
+
+  </div>
+
+
+  
+  <div class ="scoreboard">
+
+    <table class = "scoretable">
+      <tr>
+        <th>AI </th>
+        <th>You</th>
+        <th >Draw</th>
+      </tr>
+      <tr>
+        <td > <span id="aiScore">0</span> </td>
+        <td ><span id="humanScore">0</span> </td>
+        <td> <span id="drawScore">0</span> </td>
+      </tr>
+    </table>
+
+
+
+  </div>
+
+  <br>
+
+  <input type="button" class= "btn4" value="Clear the Scoreboard" onclick="ClearScoreboard(this)"/>
+
+
+    <table id="board">
+        <tr>
+          <td id="0" onclick="humanMove(this)" class="cell"></td>
+          <td id="1" onclick="humanMove(this)" class="cell"></td>
+          <td id="2" onclick="humanMove(this)"  class="cell"></td>
+        </tr>
+        <tr>
+          <td id="3" onclick="humanMove(this)" class="cell"></td>
+          <td id="4" onclick="humanMove(this)" class="cell"></td>
+          <td id="5" onclick="humanMove(this)" class="cell"></td>
+        </tr>
+        <tr>
+          <td id="6" onclick="humanMove(this)" class="cell"></td>
+          <td id="7" onclick="humanMove(this)" class="cell"></td>
+          <td id="8" onclick="humanMove(this)" class="cell"></td>
+        </tr>
+      </table>
+
+
+
+      <div class= "buttons">
+
+        <input type="button" class="btn1" value="Refresh the game" id="bnt-restart"  onclick="refreshBoard(this)"/>
+      
+        <input type="button" class= "btn2" value="Let AI to start" id="bnt-ai" onclick="LetAIToStart(this)"/>
+
+      
+      </div>
+
+
+
+
+
+   
+
+</body>
+
+
+
+
+
+</html>
