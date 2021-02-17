@@ -30,4 +30,6 @@ is max player.
 4) When come to root node, choose the max value which will be our next move. 
 
 
+![Screenshot](example2.png)
 ![Screenshot](example.png)
+
