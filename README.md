@@ -24,7 +24,7 @@ is max player.
 
 3) Go back from leaves to root : 
 
-for max player, choose the highest val
-for min player, choose the lowest val
+-> for max player, choose the highest val
+-> for min player, choose the lowest val
 
 4) When come to root node, choose the max value which will be our next move. 
